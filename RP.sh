@@ -8,7 +8,10 @@ useradd -m -G wheel -s /bin/bash pc
 #Uncomment wheel from sudoers file using nano in '/etc/sudoers' .
 
 #Install driver-related packages:
-sudo pacman -S mesa vulkan-intel intel-graphics-compiler intel-gmmlib intel-metee igsc intel-media-driver libva-utils rkcommon opencl-headers
+sudo pacman -S mesa vulkan-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools
+
+#Install libraries-type packages?
+sudo pacman -S opencl-headers clinfo ocl-icd
 
 #Install printer related drivers/apps:
 sudo pacman -S hplip
