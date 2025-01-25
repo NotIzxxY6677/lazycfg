@@ -23,4 +23,7 @@ cd yay
 makepkg -si
 yay --version
 
+#Install hyprland ecosystem stuff, for packages that don't exist in official repo, just use YAY
+#sudo pacman -S hyprpaper hyprpicker hypridle hyprlock xdg-desktop-portal-hyprland hyprsysteminfo hyprsunset hyprpolkitagent hyprland-qt-support qt6-wayland qt5-wayland
+
 # READ https://wiki.archlinux.org/title/Intel_graphics#Washed_out_colors
