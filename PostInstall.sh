@@ -22,3 +22,5 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 yay --version
+
+# READ https://wiki.archlinux.org/title/Intel_graphics#Washed_out_colors
