@@ -67,6 +67,9 @@ BOOT
 
 bootctl update
 
+pacman -S dhcpcd --noconfirm
+systemctl enable dhcpcd
+
 # End of chroot commands
 EOF
 
