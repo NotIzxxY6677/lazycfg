@@ -67,18 +67,14 @@ BOOT
 
 bootctl update
 
-pacman -S dhcpcd --noconfirm
-systemctl enable dhcpcd
+pacman -S dhcpcd --noconfirm && systemctl enable dhcpcd
 
 # End of chroot commands
 EOF
 
 # Exit chroot
-echo "Exiting chroot environment."
+echo "Exiting the chroot environment. Please re-enter to set up the root password and add a user."
 
-# Unmount (nah do it manually)
+# Unmount Commands for Reference 
 # umount -R /mnt
 # swapoff -a
-
-# Base System Installation Complete
-echo "Installation complete! Add the other packages from 'RP.sh' "
