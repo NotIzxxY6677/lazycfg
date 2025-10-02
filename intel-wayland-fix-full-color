@@ -8,3 +8,5 @@ for ((i = 0; i < ${#proptest_result[*]}; i += 2)); do
 
     /usr/bin/proptest -M i915 $connector connector $connector_id 1
 done
+
+# https://wiki.archlinux.org/title/Intel_graphics#Washed_out_colors
