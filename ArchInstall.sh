@@ -2,7 +2,7 @@
 
 # This whole thing only exists because I DON'T KNOW HOW TO USE ARCHINSTALL and is why relying on script yes!
 
-# Synchronize time [Arch Wiki says to do so, not sure if it's crucial[
+# Synchronize time [Arch Wiki says to do so, not sure if it's crucial]
 timedatectl
 
 # Partitioning [Arch Wiki says to use fdisk, but i cannot automate that]
