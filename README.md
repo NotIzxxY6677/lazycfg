@@ -1,1 +1,1 @@
-This is my collection of Arch Linux automation scripts. They help with things like automated installs and fixing color problems. I also keep backups of my dotfiles here.
+Just some random things I might use someday, or that someone else might find useful. I’m not using Arch at the moment, so some of this may be outdated.
